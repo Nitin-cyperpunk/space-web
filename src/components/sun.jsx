@@ -1,5 +1,5 @@
 import React from "react";
-import satelitImg from "../../assets/satelite2.jpg";
+import sunImg from "../../assets/planet.jpg";
 
 const Rapidscat = () => {
   return (
@@ -9,7 +9,9 @@ const Rapidscat = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div className="space-y-3 xl:pr-36 p-4 border-l-2 border-b-2 border-l-sky-800 border-b-sky-800 ">
               <p
-                
+                data-aos="fade-up"
+                data-aos-delay="300"
+                className="text-sky-800 uppercase"
               >
                 our mission
               </p>
@@ -18,10 +20,10 @@ const Rapidscat = () => {
                 data-aos-delay="500"
                 className="uppercase text-5xl"
               >
-                Exoplanet Orbits Youthful Star (Artist Concept)
+                WASP-18b
               </h1>
               <p data-aos="fade-up" data-aos-delay="700">
-              K2-33b, shown in this illustration, is one of the youngest exoplanets detected to date using NASA Kepler Space Telescope. It makes a complete orbit around its star in about five days. These two characteristics combined provide exciting new directions for planet-formation theories. K2-33b could have formed on a farther out orbit and quickly migrated inward. Alternatively, it could have formed in situ, or in place. http://photojournal.jpl.nasa.gov/catalog/PIA20690
+              WASP-18b is an exoplanet located 325 light-years from Earth. The planet's mass is 10 times that of Jupiter, and it orbits its star once every 23 hours. A 2017 study found that this planet has a stratosphere that's loaded with carbon dioxide, but has no signs of water. A stratosphere is a layer of atmosphere in which temperature increases with higher altitudes. The study used NASA's Spitzer and Hubble space telescopes. https://photojournal.jpl.nasa.gov/catalog/PIA22087
               </p>
               <button
                 data-aos="fade-up"

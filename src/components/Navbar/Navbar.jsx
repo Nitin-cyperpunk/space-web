@@ -12,18 +12,16 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4 text-white font-bold text-2xl">
               <img src={Logo} alt="" className="w-10" />
-              <span>TCJ-SPACE</span>
+              <span>Exoplanets</span>
             </div>
             <div className="text-white hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 ">
+              <li className="hover:text-blue">About</li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="https://eyes.nasa.gov/apps/exo/#/">Technology</a>
                 </li>
                 <li>
-                  <a href="#">Technology</a>
-                </li>
-                <li>
-                  <a href="#">Galaxy</a>
+                  <a href="https://science.nasa.gov/exoplanets/">Galaxy</a>
                 </li>
                 <li>
                   <a href="#">Satelite</a>
@@ -32,7 +30,7 @@ const Navbar = () => {
             </div>
             <div>
               <button className=" text-white border-2 border-white px-3 py-1 rounded-md">
-                Login
+              <a href="#">Login</a>
               </button>
             </div>
           </div>

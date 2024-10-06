@@ -1,5 +1,5 @@
 import React from "react";
-import sateliteImg from "../../assets/satelite1.jpg";
+import sateliteImg from "../../assets/satelite.jpg";
 
 const Rapidscat = () => {
   return (
@@ -27,15 +27,10 @@ const Rapidscat = () => {
                 data-aos-delay="500"
                 className="uppercase text-5xl"
               >
-                Rapidscat
+                NASA Selects 5 New Roman Technology Fellows in Astrophysics
               </h1>
               <p data-aos="fade-up" data-aos-delay="700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+              NASA has awarded Nancy Grace Roman Technology Fellowships (RTF) to five early-career researchers in astrophysics for the class of 2023.  The program will support the advancement of their ideas for new technologies to further the exploration of the universe. 
               </p>
               <button
                 data-aos="fade-up"
@@ -43,7 +38,7 @@ const Rapidscat = () => {
                 className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
               >
                 View All
-              </button>
+              </button >
             </div>
           </div>
         </div>
